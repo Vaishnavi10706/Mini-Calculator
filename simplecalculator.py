@@ -5,9 +5,11 @@ print("press 1 for addition \npress 2 for substraction \npress 3 for multiplicat
 choice = int(input("select operation: "))
 if choice == 1:
   print(num1+num2)
-if choice == 2:
+elif choice == 2:
   print(num1-num2)
-if choice == 3:
+elif choice == 3:
   print(num1*num2)
-if choice == 4:
+elif choice == 4:
   print(num1/num2)
+else :
+  print("invalid operation selected")
